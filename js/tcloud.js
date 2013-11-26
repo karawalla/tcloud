@@ -1,7 +1,6 @@
 var tcloud = (function(){
 	var initModule = function($container){
-		$container.html('<h1>Test Ini');
-		
+	    tcloud.shell.initModule($container);
 	};
 	return {initModule:initModule};	
 }());
